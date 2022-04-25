@@ -1,1 +1,1 @@
-tudying higher level programming tools and softwares
+studying higher level programming tools and softwares
