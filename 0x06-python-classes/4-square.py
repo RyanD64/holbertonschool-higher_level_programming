@@ -1,5 +1,9 @@
 #!/usr/bin/python3
+"""define square"""
+
+
 class Square:
+    """class square"""
     def __init__(self, size=0):
         self.__size = size
 
@@ -8,7 +12,7 @@ class Square:
         return self.__size
 
     @size.setter
-    def size(self, value): 
+    def size(self, value):
         if type(value) != int:
             raise (TypeError('size must be an integer'))
         elif value < 0:
