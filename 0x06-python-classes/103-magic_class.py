@@ -1,12 +1,12 @@
 #!/usr/bin/python3
+"""magic class"""
 import math
 
 
 
 
-
-
 class MagicClass:
+    """define area and circumference of a circle"""
     def __init__(self, radius):
         self.__radius = 0
         if type(radius) is not int and typr(radius) is not float:
