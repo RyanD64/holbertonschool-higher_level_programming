@@ -1,0 +1,64 @@
+>>> add_integer = __import__('0-add_integer').add_integer
+
+>>> add_integer(4, -2)
+2
+
+>>> add_integer(-2, 4)
+2
+
+>>> add_integer(102, -56)
+46
+
+>>> add_integer("adqsc", -5)
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
+
+>>> add_integer(4, "grefz")
+Traceback (most recent call last):
+...
+TypeError: b must be an integer
+
+>>> add_integer(-5, -18)
+-23
+
+>>> add_integer(100.64, 47)
+147
+
+>>> add_integer(87, 153.765)
+240
+
+>>> add_integer(123.986, 432.716)
+555
+
+>>> add_integer(-154.74, 54.75)
+-100
+
+>>> add_integer(64.86, -326.23)
+-262
+
+>>> add_integer(-54.642, -28.098)
+-82
+
+>>> add_integer(238.018728765645768798, 25.1070269876756453467568)
+263
+
+>>> add_integer("LKJ", "KJHJGHF")
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
+
+>>> add_integer("23AZ", "36TZ")
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
+
+>>> add_integer("29AKJH", 65)
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
+
+>>> add_integer(65, "54RES")
+Traceback (most recent call last):
+...
+TypeError: b must be an integer
