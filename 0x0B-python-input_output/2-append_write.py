@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-"""append a string at the end of a text file"""
+"""append write"""
 
 
 def append_write(filename="", text=""):
+    """append a string at the end of a text file"""
     with open(filename, 'a', encoding="utf-8") as a:
         a.write(text)
         return len(text)
