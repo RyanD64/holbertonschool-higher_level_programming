@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-"""write a string a text file"""
+"""write file"""
 
 
 def write_file(filename="", text=""):
+    """write a strig to a text file"""
     with open(filename, 'w', encoding="utf-8") as a:
         a.writelines(text)
     a.close
