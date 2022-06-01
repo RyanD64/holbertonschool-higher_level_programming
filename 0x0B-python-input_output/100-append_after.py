@@ -3,6 +3,9 @@
 
 
 def append_after(filename="", search_string="", new_string=""):
+    """insert a line to a text file after
+    each line containing a specific string
+    """
     with open(filename, mode="r+", encoding="utf-8") as read:
         tmp = read.readlines()
 
