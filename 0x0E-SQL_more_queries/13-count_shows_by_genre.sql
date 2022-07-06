@@ -1,5 +1,5 @@
 -- lists all genres from the database and display those liked to each other
-SELECT a.name AS genre, COUNT(b.genre.id) AS number_of_shows
+SELECT a.name AS genre, COUNT(b.genre_id) AS number_of_shows
 FROM tv_genres a
 JOIN tv_show_genres b
 ON a.id = b.genre_id
